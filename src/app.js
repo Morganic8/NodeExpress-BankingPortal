@@ -37,7 +37,7 @@ app.get('/transfer', (req, res) => {
 });
 
 app.post('/transfer', (req, res) => {
-  console.log(req.body);
+  
 });
 app.get('/', (req, res) => {
   res.render('index', { title: 'Account Summary', accounts: accounts });
